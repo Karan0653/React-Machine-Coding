@@ -1,0 +1,8 @@
+.otpbox {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
