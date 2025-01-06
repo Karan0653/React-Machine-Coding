@@ -24,12 +24,15 @@
 
 .active {
   display: block;
+  transform: scale(1.1); /* Slight zoom effect */
+  z-index: 2;
 }
 
 img {
   display: none;
   width: 300px;
   height: 200px;
+  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
 }
 
 .carousel-container {
@@ -46,6 +49,8 @@ img {
   display: block;
   opacity: 50%;
   cursor: pointer;
+  transform: scale(0.9); /* Slightly smaller */
+  z-index: 1;
 }
 
 .prev-slide {
@@ -55,4 +60,6 @@ img {
   left: -160px;
   display: block;
   opacity: 50%;
+  transform: scale(0.9); /* Slightly smaller */
+  z-index: 1;
 }
